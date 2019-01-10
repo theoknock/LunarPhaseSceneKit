@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9BBE54A21E80D0D0011EED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE54921E80D0D0011EED5 /* AppDelegate.m */; };
+		B9BBE54D21E80D0D0011EED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE54C21E80D0D0011EED5 /* ViewController.m */; };
+		B9BBE55021E80D0D0011EED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE54E21E80D0D0011EED5 /* Main.storyboard */; };
+		B9BBE55221E80D0E0011EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE55121E80D0E0011EED5 /* Assets.xcassets */; };
+		B9BBE55521E80D0E0011EED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE55321E80D0E0011EED5 /* LaunchScreen.storyboard */; };
+		B9BBE55821E80D0E0011EED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE55721E80D0E0011EED5 /* main.m */; };
+		B9BBE55C21E80D0E0011EED5 /* LunarPhase WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B9BBE55B21E80D0E0011EED5 /* LunarPhase WatchKit App.app */; };
+		B9BBE56221E80D0E0011EED5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE56021E80D0E0011EED5 /* Interface.storyboard */; };
+		B9BBE56421E80D0F0011EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE56321E80D0F0011EED5 /* Assets.xcassets */; };
+		B9BBE56B21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B9BBE56A21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B9BBE57121E80D0F0011EED5 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57021E80D0F0011EED5 /* InterfaceController.m */; };
+		B9BBE57421E80D0F0011EED5 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57321E80D0F0011EED5 /* ExtensionDelegate.m */; };
+		B9BBE57721E80D0F0011EED5 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57621E80D0F0011EED5 /* NotificationController.m */; };
+		B9BBE57A21E80D0F0011EED5 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57921E80D0F0011EED5 /* ComplicationController.m */; };
+		B9BBE57C21E80D0F0011EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BBE55D21E80D0E0011EED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BBE53D21E80D0D0011EED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BBE55A21E80D0E0011EED5;
+			remoteInfo = "LunarPhase WatchKit App";
+		};
+		B9BBE56C21E80D0F0011EED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BBE53D21E80D0D0011EED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BBE56921E80D0F0011EED5;
+			remoteInfo = "LunarPhase WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9BBE58421E80D0F0011EED5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B9BBE56B21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BBE58821E80D0F0011EED5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B9BBE55C21E80D0E0011EED5 /* LunarPhase WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B9BBE54521E80D0D0011EED5 /* LunarPhase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunarPhase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BBE54821E80D0D0011EED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BBE54921E80D0D0011EED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BBE54B21E80D0D0011EED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9BBE54C21E80D0D0011EED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9BBE54F21E80D0D0011EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9BBE55121E80D0E0011EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BBE55421E80D0E0011EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9BBE55621E80D0E0011EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BBE55721E80D0E0011EED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BBE55B21E80D0E0011EED5 /* LunarPhase WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LunarPhase WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BBE56121E80D0E0011EED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B9BBE56321E80D0F0011EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BBE56521E80D0F0011EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BBE56A21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LunarPhase WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BBE56F21E80D0F0011EED5 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B9BBE57021E80D0F0011EED5 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B9BBE57221E80D0F0011EED5 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B9BBE57321E80D0F0011EED5 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B9BBE57521E80D0F0011EED5 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		B9BBE57621E80D0F0011EED5 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		B9BBE57821E80D0F0011EED5 /* ComplicationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComplicationController.h; sourceTree = "<group>"; };
+		B9BBE57921E80D0F0011EED5 /* ComplicationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationController.m; sourceTree = "<group>"; };
+		B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9BBE57D21E80D0F0011EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BBE57E21E80D0F0011EED5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BBE54221E80D0D0011EED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BBE56721E80D0F0011EED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9BBE53C21E80D0D0011EED5 = {
+			isa = PBXGroup;
+			children = (
+				B9BBE54721E80D0D0011EED5 /* LunarPhase */,
+				B9BBE55F21E80D0E0011EED5 /* LunarPhase WatchKit App */,
+				B9BBE56E21E80D0F0011EED5 /* LunarPhase WatchKit Extension */,
+				B9BBE54621E80D0D0011EED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BBE54621E80D0D0011EED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBE54521E80D0D0011EED5 /* LunarPhase.app */,
+				B9BBE55B21E80D0E0011EED5 /* LunarPhase WatchKit App.app */,
+				B9BBE56A21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BBE54721E80D0D0011EED5 /* LunarPhase */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBE54821E80D0D0011EED5 /* AppDelegate.h */,
+				B9BBE54921E80D0D0011EED5 /* AppDelegate.m */,
+				B9BBE54B21E80D0D0011EED5 /* ViewController.h */,
+				B9BBE54C21E80D0D0011EED5 /* ViewController.m */,
+				B9BBE54E21E80D0D0011EED5 /* Main.storyboard */,
+				B9BBE55121E80D0E0011EED5 /* Assets.xcassets */,
+				B9BBE55321E80D0E0011EED5 /* LaunchScreen.storyboard */,
+				B9BBE55621E80D0E0011EED5 /* Info.plist */,
+				B9BBE55721E80D0E0011EED5 /* main.m */,
+			);
+			path = LunarPhase;
+			sourceTree = "<group>";
+		};
+		B9BBE55F21E80D0E0011EED5 /* LunarPhase WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBE56021E80D0E0011EED5 /* Interface.storyboard */,
+				B9BBE56321E80D0F0011EED5 /* Assets.xcassets */,
+				B9BBE56521E80D0F0011EED5 /* Info.plist */,
+			);
+			path = "LunarPhase WatchKit App";
+			sourceTree = "<group>";
+		};
+		B9BBE56E21E80D0F0011EED5 /* LunarPhase WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBE56F21E80D0F0011EED5 /* InterfaceController.h */,
+				B9BBE57021E80D0F0011EED5 /* InterfaceController.m */,
+				B9BBE57221E80D0F0011EED5 /* ExtensionDelegate.h */,
+				B9BBE57321E80D0F0011EED5 /* ExtensionDelegate.m */,
+				B9BBE57521E80D0F0011EED5 /* NotificationController.h */,
+				B9BBE57621E80D0F0011EED5 /* NotificationController.m */,
+				B9BBE57821E80D0F0011EED5 /* ComplicationController.h */,
+				B9BBE57921E80D0F0011EED5 /* ComplicationController.m */,
+				B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */,
+				B9BBE57D21E80D0F0011EED5 /* Info.plist */,
+				B9BBE57E21E80D0F0011EED5 /* PushNotificationPayload.apns */,
+			);
+			path = "LunarPhase WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BBE54421E80D0D0011EED5 /* LunarPhase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BBE58921E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase" */;
+			buildPhases = (
+				B9BBE54121E80D0D0011EED5 /* Sources */,
+				B9BBE54221E80D0D0011EED5 /* Frameworks */,
+				B9BBE54321E80D0D0011EED5 /* Resources */,
+				B9BBE58821E80D0F0011EED5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BBE55E21E80D0E0011EED5 /* PBXTargetDependency */,
+			);
+			name = LunarPhase;
+			productName = LunarPhase;
+			productReference = B9BBE54521E80D0D0011EED5 /* LunarPhase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BBE55A21E80D0E0011EED5 /* LunarPhase WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BBE58521E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase WatchKit App" */;
+			buildPhases = (
+				B9BBE55921E80D0E0011EED5 /* Resources */,
+				B9BBE58421E80D0F0011EED5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BBE56D21E80D0F0011EED5 /* PBXTargetDependency */,
+			);
+			name = "LunarPhase WatchKit App";
+			productName = "LunarPhase WatchKit App";
+			productReference = B9BBE55B21E80D0E0011EED5 /* LunarPhase WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B9BBE56921E80D0F0011EED5 /* LunarPhase WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BBE58121E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase WatchKit Extension" */;
+			buildPhases = (
+				B9BBE56621E80D0F0011EED5 /* Sources */,
+				B9BBE56721E80D0F0011EED5 /* Frameworks */,
+				B9BBE56821E80D0F0011EED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LunarPhase WatchKit Extension";
+			productName = "LunarPhase WatchKit Extension";
+			productReference = B9BBE56A21E80D0F0011EED5 /* LunarPhase WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BBE53D21E80D0D0011EED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "The Life of a Demoniac";
+				TargetAttributes = {
+					B9BBE54421E80D0D0011EED5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B9BBE55A21E80D0E0011EED5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B9BBE56921E80D0F0011EED5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B9BBE54021E80D0D0011EED5 /* Build configuration list for PBXProject "LunarPhase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BBE53C21E80D0D0011EED5;
+			productRefGroup = B9BBE54621E80D0D0011EED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BBE54421E80D0D0011EED5 /* LunarPhase */,
+				B9BBE55A21E80D0E0011EED5 /* LunarPhase WatchKit App */,
+				B9BBE56921E80D0F0011EED5 /* LunarPhase WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BBE54321E80D0D0011EED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBE55521E80D0E0011EED5 /* LaunchScreen.storyboard in Resources */,
+				B9BBE55221E80D0E0011EED5 /* Assets.xcassets in Resources */,
+				B9BBE55021E80D0D0011EED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BBE55921E80D0E0011EED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBE56421E80D0F0011EED5 /* Assets.xcassets in Resources */,
+				B9BBE56221E80D0E0011EED5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BBE56821E80D0F0011EED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBE57C21E80D0F0011EED5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BBE54121E80D0D0011EED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBE54D21E80D0D0011EED5 /* ViewController.m in Sources */,
+				B9BBE55821E80D0E0011EED5 /* main.m in Sources */,
+				B9BBE54A21E80D0D0011EED5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BBE56621E80D0F0011EED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BBE57421E80D0F0011EED5 /* ExtensionDelegate.m in Sources */,
+				B9BBE57A21E80D0F0011EED5 /* ComplicationController.m in Sources */,
+				B9BBE57121E80D0F0011EED5 /* InterfaceController.m in Sources */,
+				B9BBE57721E80D0F0011EED5 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BBE55E21E80D0E0011EED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BBE55A21E80D0E0011EED5 /* LunarPhase WatchKit App */;
+			targetProxy = B9BBE55D21E80D0E0011EED5 /* PBXContainerItemProxy */;
+		};
+		B9BBE56D21E80D0F0011EED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BBE56921E80D0F0011EED5 /* LunarPhase WatchKit Extension */;
+			targetProxy = B9BBE56C21E80D0F0011EED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9BBE54E21E80D0D0011EED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BBE54F21E80D0D0011EED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BBE55321E80D0E0011EED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BBE55421E80D0E0011EED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B9BBE56021E80D0E0011EED5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BBE56121E80D0E0011EED5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9BBE57F21E80D0F0011EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9BBE58021E80D0F0011EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BBE58221E80D0F0011EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = "LunarPhase WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		B9BBE58321E80D0F0011EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = "LunarPhase WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		B9BBE58621E80D0F0011EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				IBSC_MODULE = LunarPhase_WatchKit_Extension;
+				INFOPLIST_FILE = "LunarPhase WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		B9BBE58721E80D0F0011EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				IBSC_MODULE = LunarPhase_WatchKit_Extension;
+				INFOPLIST_FILE = "LunarPhase WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		B9BBE58A21E80D0F0011EED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = LunarPhase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9BBE58B21E80D0F0011EED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N9987K9442;
+				INFOPLIST_FILE = LunarPhase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blogspot.demonicactivity.bush.alan.james.LunarPhase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BBE54021E80D0D0011EED5 /* Build configuration list for PBXProject "LunarPhase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BBE57F21E80D0F0011EED5 /* Debug */,
+				B9BBE58021E80D0F0011EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BBE58121E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BBE58221E80D0F0011EED5 /* Debug */,
+				B9BBE58321E80D0F0011EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BBE58521E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BBE58621E80D0F0011EED5 /* Debug */,
+				B9BBE58721E80D0F0011EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BBE58921E80D0F0011EED5 /* Build configuration list for PBXNativeTarget "LunarPhase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BBE58A21E80D0F0011EED5 /* Debug */,
+				B9BBE58B21E80D0F0011EED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BBE53D21E80D0D0011EED5 /* Project object */;
+}
