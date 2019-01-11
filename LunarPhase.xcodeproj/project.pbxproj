@@ -24,6 +24,7 @@
 		B9BBE57C21E80D0F0011EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */; };
 		B9BBE59021E80E3E0011EED5 /* LunarPhaseSceneKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */; };
 		B9BBE59121E80E3E0011EED5 /* LunarPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */; };
+		B9EE5C2121E9006B00C69DFF /* README.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = B9EE5C2021E9006B00C69DFF /* README.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarPhaseSceneKitView.m; sourceTree = "<group>"; wrapsLines = 0; };
 		B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarPhase.m; sourceTree = "<group>"; };
 		B9BBE58F21E80E3E0011EED5 /* LunarPhaseSceneKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarPhaseSceneKitView.h; sourceTree = "<group>"; };
+		B9EE5C2021E9006B00C69DFF /* README.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = README.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */,
 				B9BBE58F21E80E3E0011EED5 /* LunarPhaseSceneKitView.h */,
 				B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */,
+				B9EE5C2021E9006B00C69DFF /* README.rtfd */,
 				B9BBE54821E80D0D0011EED5 /* AppDelegate.h */,
 				B9BBE54921E80D0D0011EED5 /* AppDelegate.m */,
 				B9BBE54B21E80D0D0011EED5 /* ViewController.h */,
@@ -290,6 +293,7 @@
 			files = (
 				B9BBE55521E80D0E0011EED5 /* LaunchScreen.storyboard in Resources */,
 				B9BBE55221E80D0E0011EED5 /* Assets.xcassets in Resources */,
+				B9EE5C2121E9006B00C69DFF /* README.rtfd in Resources */,
 				B9BBE55021E80D0D0011EED5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
