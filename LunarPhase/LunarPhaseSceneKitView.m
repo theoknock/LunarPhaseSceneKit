@@ -65,9 +65,9 @@ float scaleBetween(float unscaledNum, float minAllowed, float maxAllowed, float 
     cameraOrbit = [SCNNode node];
     [cameraOrbit addChildNode:cameraNode];
     
-    float degrees = scaleBetween(_moonPhase, 0, 360, 1, 0);
+    float degrees = scaleBetween(_moonPhase, 0, 360, 0, 1);
     
-    [cameraOrbit runAction:[SCNAction rotateByX:0.0 y:degreesToRadians(-degrees) z:0  duration:1]];
+    [cameraOrbit runAction:[SCNAction rotateByX:degreesToRadians(180.0) y:degreesToRadians(-degrees) z:0  duration:1]];
 //    [cameraOrbit setRotation:SCNVector4Make(degreesToRadians(180.0), degreesToRadians(degrees), 0.0, 0.0)];
     NSLog(@"Moon phase\t%f", _moonPhase);
     
