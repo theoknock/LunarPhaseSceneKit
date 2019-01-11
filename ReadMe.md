@@ -1,6 +1,6 @@
-# LunarPhase
+# LunarPhase (SceneKit Framework Demo)
 
-Displays the current lunar phase of Earth's moon using a SceneKit SCNSphere (3D, rotatable) with a complete stereographic projection (mercator) of the Moon applied as SCNMaterial:
+Displays the current lunar phase of Earth's moon in an SCNView using an SCNSphere (3D, rotatable) with a complete stereographic projection (mercator) of the Moon (shown below) applied as SCNMaterial:
 
 ![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Moon%20images/moon-specular.png)
 
