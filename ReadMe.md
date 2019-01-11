@@ -5,7 +5,7 @@ Displays the current lunar phase using a SceneKit SCNSphere (3D, rotatable) with
 
 The shadow is positioned by rotating an SCNCamera on its Y-axis by the normalized degree value (0° to 360°) returned by the LunarPhase class (a float, ranging from 0.0 to 1.0); it is updated every minute.
 
-![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2256.imageset/IMG_2256.PNG)    ![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2257.imageset/IMG_2257.PNG)   [alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2258.imageset/IMG_2258.PNG)
+![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2256.imageset/IMG_2256.PNG)    ![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2257.imageset/IMG_2257.PNG)   ![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Assets.xcassets/IMG_2258.imageset/IMG_2258.PNG)
 
 ### To-Do
 
