@@ -1,6 +1,7 @@
 # LunarPhase
 
 Displays the current lunar phase of Earth's moon using a SceneKit SCNSphere (3D, rotatable) with a complete stereographic projection (mercator) of the Moon applied as SCNMaterial:
+
 ![alt text](https://github.com/theoknock/LunarPhaseSceneKit/raw/master/LunarPhase/Moon%20images/moon-specular.png)
 
 The shadow is updated every minute, and is positioned by rotating the SCNCamera on its Y-axis by the normalized degree value (0° to 360°) returned by the LunarPhase class (a float, ranging from 0.0 to 1.0). These screenshots show the first quarter, half moon and full moon phases, respectively:
