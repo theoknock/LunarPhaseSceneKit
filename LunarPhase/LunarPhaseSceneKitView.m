@@ -84,11 +84,11 @@ float scaleBetween(float unscaledNum, float minAllowed, float maxAllowed, float 
     lightNode.light.shadowColor = [UIColor blackColor];
     lightNode.light.shadowMode = SCNShadowModeDeferred;
     
-    SCNNode *sun = [SCNNode node];
-    sun.light = [SCNLight light];
-    sun.light.type = SCNLightTypeAmbient;
-    sun.light.color = [UIColor whiteColor];
-    sun.light.intensity = sun.light.intensity / 4.0;
+//    SCNNode *sun = [SCNNode node];
+//    sun.light = [SCNLight light];
+//    sun.light.type = SCNLightTypeAmbient;
+//    sun.light.color = [UIColor whiteColor];
+//    sun.light.intensity = sun.light.intensity / 4.0;
     
     // Moon
     SCNSphere *moon = [SCNSphere sphereWithRadius:4];
