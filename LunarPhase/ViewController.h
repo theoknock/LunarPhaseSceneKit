@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SceneKit/SceneKit.h>
+
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet SCNView *moonSceneView;
 
 @end
 

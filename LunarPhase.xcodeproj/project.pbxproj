@@ -22,6 +22,8 @@
 		B9BBE57721E80D0F0011EED5 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57621E80D0F0011EED5 /* NotificationController.m */; };
 		B9BBE57A21E80D0F0011EED5 /* ComplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE57921E80D0F0011EED5 /* ComplicationController.m */; };
 		B9BBE57C21E80D0F0011EED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */; };
+		B9BBE59021E80E3E0011EED5 /* LunarPhaseSceneKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */; };
+		B9BBE59121E80E3E0011EED5 /* LunarPhase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		B9BBE57B21E80D0F0011EED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9BBE57D21E80D0F0011EED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BBE57E21E80D0F0011EED5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B9BBE58C21E80E3E0011EED5 /* LunarPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarPhase.h; sourceTree = "<group>"; };
+		B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarPhaseSceneKitView.m; sourceTree = "<group>"; wrapsLines = 0; };
+		B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarPhase.m; sourceTree = "<group>"; };
+		B9BBE58F21E80E3E0011EED5 /* LunarPhaseSceneKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarPhaseSceneKitView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,10 @@
 		B9BBE54721E80D0D0011EED5 /* LunarPhase */ = {
 			isa = PBXGroup;
 			children = (
+				B9BBE58C21E80E3E0011EED5 /* LunarPhase.h */,
+				B9BBE58E21E80E3E0011EED5 /* LunarPhase.m */,
+				B9BBE58F21E80E3E0011EED5 /* LunarPhaseSceneKitView.h */,
+				B9BBE58D21E80E3E0011EED5 /* LunarPhaseSceneKitView.m */,
 				B9BBE54821E80D0D0011EED5 /* AppDelegate.h */,
 				B9BBE54921E80D0D0011EED5 /* AppDelegate.m */,
 				B9BBE54B21E80D0D0011EED5 /* ViewController.h */,
@@ -309,8 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BBE54D21E80D0D0011EED5 /* ViewController.m in Sources */,
+				B9BBE59121E80E3E0011EED5 /* LunarPhase.m in Sources */,
 				B9BBE55821E80D0E0011EED5 /* main.m in Sources */,
 				B9BBE54A21E80D0D0011EED5 /* AppDelegate.m in Sources */,
+				B9BBE59021E80E3E0011EED5 /* LunarPhaseSceneKitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
